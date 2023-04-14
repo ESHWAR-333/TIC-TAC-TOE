@@ -70,3 +70,43 @@ body{
 .box:nth-child(6) ~ .box{
     border-bottom: none;
 }
+
+
+@media only screen and  (max-width:576px)
+{
+    .button{
+        font-size: 14px;
+    }
+    .heading{
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 30px;
+        font-weight: 700;
+    }
+    #gameboard{
+        width: 240px;
+    }
+    .box{
+        height: 100px;
+        width: 80px;
+        font-size: 60px;
+    }
+    
+}
+
+@media only screen and (max-width:279)
+{
+    .heading{
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 10px;
+        font-weight: 700;
+    }
+    #gameboard{
+        width: 100px;
+    }
+    .box{
+        height: 100px;
+        width: 33px;
+        font-size: 20px;
+    
+    }
+}
